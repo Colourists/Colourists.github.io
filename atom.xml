@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>鲍晨华的博客</title>
+  <icon>https://www.gravatar.com/avatar/b36584d7cc1fe82098fc500a9a5378aa</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://colourists.github.io/"/>
+  <updated>2019-11-22T05:10:32.447Z</updated>
+  <id>https://colourists.github.io/</id>
+  
+  <author>
+    <name>鲍晨华</name>
+    <email>15011462696@163.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://colourists.github.io/2019/11/22/hello-world/"/>
+    <id>https://colourists.github.io/2019/11/22/hello-world/</id>
+    <published>2019-11-22T06:29:31.047Z</published>
+    <updated>2019-11-22T05:10:32.447Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+      <category term="开始" scheme="https://colourists.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kotlin(函数)</title>
+    <link href="https://colourists.github.io/2019/07/04/Kotlin(%E5%87%BD%E6%95%B0)/"/>
+    <id>https://colourists.github.io/2019/07/04/Kotlin(%E5%87%BD%E6%95%B0)/</id>
+    <published>2019-07-03T17:56:30.000Z</published>
+    <updated>2019-11-22T05:10:32.446Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Kotlin-的函数"><a href="#Kotlin-的函数" class="headerlink" title="Kotlin 的函数"></a>Kotlin 的函数</h1><h2 id="简单实用"><a href="#简单实用" class="headerlink" title="简单实用"></a>简单实用</h2><p>在<code>Kotlin</code>中定义函数的关键字是<code>fun</code></p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">sum</span><span class="params">(a: <span class="type">Int</span>, b: <span class="type">Int</span>)</span></span>: <span class="built_in">Int</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>Kotlin</code>的函数格式如下:</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> 函数名<span class="params">(参数名: 参数类型)</span></span>:返回值类型&#123;</span><br><span class="line">方法体</span><br><span class="line"><span class="keyword">return</span> 返回值</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><code>Kotlin</code>中的函数没有返回值,<code>Unit</code>就和<code>java</code>中的<code>void</code>一样</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">printSum</span><span class="params">(a: <span class="type">Int</span>, b: <span class="type">Int</span>)</span></span>: <span class="built_in">Unit</span> &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>但是<code>Kotlin</code>中函数默认就是没有返回值的,所以<code>Unit</code>可以省略</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">printSum</span><span class="params">(a: <span class="type">Int</span>, b: <span class="type">Int</span>)</span></span> &#123;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>单一表达式含糊</strong>表达式作为函数体,省略花括号,函数体在=后面,函数会自动推断返回值的类型</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">sum</span><span class="params">(a: <span class="type">Int</span>, b: <span class="type">Int</span>)</span></span> = a + b</span><br><span class="line"><span class="comment">//声明返回类型也行</span></span><br><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">double</span><span class="params">(x: <span class="type">Int</span>)</span></span>: <span class="built_in">Int</span> = x * <span class="number">2</span></span><br></pre></td></tr></table></figure><h2 id="了解"><a href="#了解" class="headerlink" title="了解"></a>了解</h2><h3 id="重写和默认参数"><a href="#重写和默认参数" class="headerlink" title="重写和默认参数"></a>重写和默认参数</h3><p>在<code>Kotlin</code>中函数可以直接设置默认参数,默认值在类型后面直接使用=</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">A</span> </span>&#123;</span><br><span class="line">    <span class="keyword">open</span> <span class="function"><span class="keyword">fun</span> <span class="title">foo</span><span class="params">(i: <span class="type">Int</span> = <span class="number">10</span>)</span></span> &#123; ... &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> : <span class="type">A</span></span>() &#123;</span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">foo</span><span class="params">(i: <span class="type">Int</span>)</span></span> &#123; ... &#125; </span><br><span class="line">    <span class="comment">// 因为继承自A的foo已经设置了默认值,所以B里的foo就不能再设置默认值了,他们会统一使用A的foo设置的默认值</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="使用命名参数"><a href="#使用命名参数" class="headerlink" title="使用命名参数"></a>使用命名参数</h3><p>当一个函数有大量参数时会非常实用,只输入需要改变的参数</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//定义一个函数</span></span><br><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">get</span><span class="params">(j: <span class="type">Int</span>, i: <span class="type">Int</span> = <span class="number">100</span>, upperCaseFirstLetter: <span class="type">Boolean</span> = <span class="literal">true</span>,</span></span></span><br><span class="line"><span class="function"><span class="params">                 divideByCamelHumps: <span class="type">Boolean</span> = <span class="literal">false</span>)</span></span>: <span class="built_in">Int</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> i + j;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p>这个函数中有默认值参数,也有没有默认值的参数我们可以这样调用</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> i1: <span class="built_in">Int</span> = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">get</span>(i1,upperCaseFirstLetter = <span class="literal">false</span>) <span class="comment">// 只输入没有默认参数的和需要改变的参数upperCaseFirstLetter = false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">get</span>(i1)<span class="comment">//全部使用默认的只输入没有默认的</span></span><br></pre></td></tr></table></figure><h2 id="可变参数vararg"><a href="#可变参数vararg" class="headerlink" title="可变参数vararg"></a>可变参数<code>vararg</code></h2><p>函数的参数（通常是最后一个）可以用<code>vararg</code>修饰符标记:</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"> <span class="function"><span class="keyword">fun</span> <span class="type">&lt;T&gt;</span> <span class="title">asList</span><span class="params">(<span class="keyword">vararg</span> ts: <span class="type">T</span>)</span></span>: List&lt;T&gt; &#123;</span><br><span class="line">        <span class="keyword">val</span> result = ArrayList&lt;T&gt;()</span><br><span class="line">        <span class="keyword">for</span> (t <span class="keyword">in</span> ts) <span class="comment">// ts is an Array</span></span><br><span class="line">        result.add(t)</span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">val</span> list = asList(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">val</span> list = asList(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>,<span class="number">5</span>,<span class="number">6</span>)</span><br></pre></td></tr></table></figure><p>允许输入不同位数的参数,在函数中，一个<code>T</code>类型的<code>vararg</code>参数被看成<code>T</code>的一个集合，即上面例子中的<code>ts</code>变量是<code>Array&lt;out T&gt;</code>类型的,</p><p>一个函数只能有一个参数被<code>vararg</code>标记,如果<code>vararg</code>参数不是最后一个的话，后面的参数的值可以使用命名参数语法传入，如果参数是函数类型，就需要在括号外传入lambda表达式</p><p>当我们调用一个<code>vararg</code>函数,我们可以一个一个的传入参数,也可以吧一个数组传入,使用<code>*</code>标记在参数前面加<code>*</code></p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">val</span> a = arrayOf(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"><span class="keyword">val</span> list = asList(-<span class="number">1</span>, <span class="number">0</span>, *a, <span class="number">4</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Kotlin-的函数&quot;&gt;&lt;a href=&quot;#Kotlin-的函数&quot; class=&quot;headerlink&quot; title=&quot;Kotlin 的函数&quot;&gt;&lt;/a&gt;Kotlin 的函数&lt;/h1&gt;&lt;h2 id=&quot;简单实用&quot;&gt;&lt;a href=&quot;#简单实用&quot; class=&quot;head
+      
+    
+    </summary>
+    
+    
+      <category term="android" scheme="https://colourists.github.io/categories/android/"/>
+    
+    
+      <category term="kotlin" scheme="https://colourists.github.io/tags/kotlin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kotlin变量与常量</title>
+    <link href="https://colourists.github.io/2019/07/04/kotlin%20(%E5%8F%98%E9%87%8F%E4%B8%8E%E5%B8%B8%E9%87%8F)/"/>
+    <id>https://colourists.github.io/2019/07/04/kotlin%20(%E5%8F%98%E9%87%8F%E4%B8%8E%E5%B8%B8%E9%87%8F)/</id>
+    <published>2019-07-03T16:44:10.000Z</published>
+    <updated>2019-11-22T05:10:32.448Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="变量与常量"><a href="#变量与常量" class="headerlink" title="变量与常量"></a>变量与常量</h1><p>和<code>java</code>不一样<code>kotlin</code>是变量名在前类型在后,有点不适应</p><p><strong>常量 (不可改变)</strong>一旦赋值就不可改变,使用<code>val</code>关键字</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">val</span> a: <span class="built_in">Int</span> = <span class="number">1</span></span><br><span class="line"><span class="keyword">val</span> b = <span class="number">1</span>   <span class="comment">// 自动推断 Int 类型</span></span><br><span class="line"><span class="keyword">val</span> c: <span class="built_in">Int</span>  <span class="comment">// 没有提供初始值，必须声明类型</span></span><br><span class="line">c = <span class="number">1</span>       <span class="comment">// 延迟赋值</span></span><br></pre></td></tr></table></figure><p><strong>变量(可以动态改变的)</strong>使用<code>var</code>关键字</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> x = <span class="number">5</span> <span class="comment">// 自动推断 Int 类型</span></span><br><span class="line">x += <span class="number">1</span></span><br></pre></td></tr></table></figure><p>同时有一个额要注意的点是,类的属性是必须初始化的,不能延迟赋值除非将这个属性变为抽象的</p><p><img alt="抽象的" data-src="https://raw.githubusercontent.com/Colourists/Cloud-picture/master/android/form/20190703171924.png" class="lazyload"></p><p><img alt="报错" data-src="C:%5CUsers%5CThinkpad%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1562145624289.png" class="lazyload"></p><p>大家可能会发现一个问题,在<code>java</code>中我们都会使用可见性修饰符去修饰属性,但是在<code>kotlin</code>却没有出现,那是因为<code>java</code>默认是<code>protected</code>但是<code>kotlin</code>默认是<code>publish</code>的</p><h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><p>在<code>java</code>中如果我们想在<code>TextView</code>中输入设置我们就需要这样设置</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">text.setText(i+<span class="string">""</span>);</span><br></pre></td></tr></table></figure><p>在<code>Kotlin</code>中</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var i: Int = 0;</span><br><span class="line">text.text = &quot;$i&quot;;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;变量与常量&quot;&gt;&lt;a href=&quot;#变量与常量&quot; class=&quot;headerlink&quot; title=&quot;变量与常量&quot;&gt;&lt;/a&gt;变量与常量&lt;/h1&gt;&lt;p&gt;和&lt;code&gt;java&lt;/code&gt;不一样&lt;code&gt;kotlin&lt;/code&gt;是变量名在前类型在后,有点不适应&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="android" scheme="https://colourists.github.io/categories/android/"/>
+    
+    
+      <category term="kotlin" scheme="https://colourists.github.io/tags/kotlin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kotlin</title>
+    <link href="https://colourists.github.io/2019/07/03/Kotlin/"/>
+    <id>https://colourists.github.io/2019/07/03/Kotlin/</id>
+    <published>2019-07-03T15:40:27.000Z</published>
+    <updated>2019-11-22T05:10:32.446Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Kotlin-学习第一步"><a href="#Kotlin-学习第一步" class="headerlink" title="Kotlin 学习第一步"></a>Kotlin 学习第一步</h1><p>安装Kotlin插件,打开android studio 进入插件下载页面 搜索kotlin</p><p><img alt data-src="https://raw.githubusercontent.com/Colourists/Cloud-picture/master/android/form/20190703160406.png" class="lazyload"></p><p>然后就可以新建一个Kotlin项目</p><p><img alt data-src="https://raw.githubusercontent.com/Colourists/Cloud-picture/master/android/form/20190703164335.png" class="lazyload"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Kotlin-学习第一步&quot;&gt;&lt;a href=&quot;#Kotlin-学习第一步&quot; class=&quot;headerlink&quot; title=&quot;Kotlin 学习第一步&quot;&gt;&lt;/a&gt;Kotlin 学习第一步&lt;/h1&gt;&lt;p&gt;安装Kotlin插件,打开android studio 进入
+      
+    
+    </summary>
+    
+    
+      <category term="android" scheme="https://colourists.github.io/categories/android/"/>
+    
+    
+      <category term="kotlin" scheme="https://colourists.github.io/tags/kotlin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单bat命令</title>
+    <link href="https://colourists.github.io/2019/07/03/bat%20%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    <id>https://colourists.github.io/2019/07/03/bat%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</id>
+    <published>2019-07-03T15:20:49.000Z</published>
+    <updated>2019-11-22T05:10:32.447Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">d:</span></span><br><span class="line"><span class="function">//切换到 <span class="title">D</span>盘</span></span><br><span class="line"><span class="function"><span class="title">cd</span> <span class="title">D</span>:\<span class="title">boke</span>\<span class="title">Colourists.github.io</span>\</span></span><br><span class="line"><span class="function">//切换到目标文件夹下</span></span><br><span class="line"><span class="function"><span class="title">Git</span> <span class="title">add</span> .</span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"><span class="title">Git</span> <span class="title">commit</span> -<span class="title">m</span> "%<span class="title">date</span>:~0,4%<span class="title">_</span>%<span class="title">date</span>:~5,2%<span class="title">_</span>%<span class="title">date</span>:~8,2%"</span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"><span class="title">git</span> <span class="title">push</span> <span class="title">origin</span> <span class="title">hexo</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"><span class="title">pause</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"><span class="title">move</span> <span class="title">D</span>:\<span class="title">boke</span>\<span class="title">Colourists.github.io</span>\<span class="title">source</span>\<span class="title">_posts</span>\新建.<span class="title">md</span> <span class="title">C</span>:\<span class="title">Users</span>\<span class="title">Thinkpad</span>\<span class="title">Desktop</span>\</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight bat&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="bat" scheme="https://colourists.github.io/categories/bat/"/>
+    
+    
+      <category term="bat批命令" scheme="https://colourists.github.io/tags/bat%E6%89%B9%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>忽略文件</title>
+    <link href="https://colourists.github.io/2019/07/03/%E4%B8%8A%E4%BC%A0%E5%BF%BD%E7%95%A5/"/>
+    <id>https://colourists.github.io/2019/07/03/%E4%B8%8A%E4%BC%A0%E5%BF%BD%E7%95%A5/</id>
+    <published>2019-07-02T20:32:53.000Z</published>
+    <updated>2019-11-22T05:10:32.448Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="android-提交-Git或SVN-需要忽略的文件"><a href="#android-提交-Git或SVN-需要忽略的文件" class="headerlink" title="android 提交 Git或SVN 需要忽略的文件"></a>android 提交 Git或SVN 需要忽略的文件</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">*.iml</span><br><span class="line">.gradle</span><br><span class="line">/local.properties</span><br><span class="line">/.idea/caches</span><br><span class="line">/.idea/libraries</span><br><span class="line">/.idea/modules.xml</span><br><span class="line">/.idea/workspace.xml</span><br><span class="line">/.idea/navEditor.xml</span><br><span class="line">/.idea/assetWizardSettings.xml</span><br><span class="line">.DS_Store</span><br><span class="line">/build</span><br><span class="line">/captures</span><br><span class="line">.externalNativeBuild</span><br></pre></td></tr></table></figure><p><strong>以上是当我们新建一个项目的时候默认的忽略设置</strong>其中已经包含了大部分需要忽略的文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># /gradle  //这个文件夹是比较混乱的,有的说需要设置,有的说不需要设置,</span><br><span class="line">/.idea</span><br></pre></td></tr></table></figure><p>这是经过我修改后的,进过我的实验,忽略掉<code>Gradle</code>文件夹后,并没有对项目造成影响</p><p><img alt="snv图片" data-src="https://raw.githubusercontent.com/Colourists/Cloud-picture/master/android/form/20190702202512.png" class="lazyload"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;android-提交-Git或SVN-需要忽略的文件&quot;&gt;&lt;a href=&quot;#android-提交-Git或SVN-需要忽略的文件&quot; class=&quot;headerlink&quot; title=&quot;android 提交 Git或SVN 需要忽略的文件&quot;&gt;&lt;/a&gt;android 
+      
+    
+    </summary>
+    
+    
+      <category term="Git" scheme="https://colourists.github.io/categories/Git/"/>
+    
+      <category term="SVN" scheme="https://colourists.github.io/categories/Git/SVN/"/>
+    
+    
+      <category term="工具" scheme="https://colourists.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+</feed>
