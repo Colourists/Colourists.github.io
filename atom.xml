@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>鲍晨华的博客</title>
+  <title>colorists的博客</title>
   <icon>https://www.gravatar.com/avatar/b36584d7cc1fe82098fc500a9a5378aa</icon>
   
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://colourists.github.io/</id>
   
   <author>
-    <name>鲍晨华</name>
+    <name>colorists</name>
     <email>15011462696@163.com</email>
   </author>
   
